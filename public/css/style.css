@@ -1,0 +1,196 @@
+/*Stylesheet*/
+
+body {
+    margin: 30px 20vw !important;
+    font-size: 15px;
+}
+
+.pageContainer #header #footer {
+    min-width: 650px;
+    max-width: 800px;
+
+}
+
+* {
+    font-size: 16px;
+}
+
+
+label {
+    font-size: 16px !important;
+}
+
+/* Tutorial */
+
+.example {
+    margin-bottom: 32px;
+}
+
+
+.sliderTable {
+    width: 800px;
+    height: 400px;
+}
+
+.sliderTable tbody tr td {
+    display: inline-flex;
+    margin-right: 50px;
+}
+
+.sliderTable form table tbody {
+
+}
+
+.sliderInput {
+    width: 200px;
+}
+
+.sliderOutput {
+    width: 50px !important;
+}
+
+.textSpan {
+    font-size: 100%;
+    margin-bottom: 16px;
+}
+
+.timerContainer {
+    height: 100px;
+    width: 150px;
+    background-color: white;
+    float: right;
+    margin: auto;
+    text-align: center;
+}
+
+#time {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/*
+Audit Page
+ */
+
+#taxInputContainer {
+    width: 400px;
+}
+
+
+
+/*Audit overlay*/
+
+.overlay {
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    transition: 0.2s;
+}
+
+#introOverlay {
+    width: 100%;
+    z-index: 100;
+
+}
+
+#introOverlay #infoContainer {
+    height: 25vh;
+}
+
+#innerInfoContainer {
+    padding-top: 8vh;
+}
+
+#feedbackOverlay {
+    width: 0;
+    display: block;
+
+}
+
+.feedbackContainer {
+    position: relative;
+    width: 33%;
+    top: 25%;
+    left: 33%;
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.feedbackContainer table {
+    margin: 25px;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.feedbackContainer table td, th {
+    border: 1px solid black;
+    text-align: left;
+}
+
+/* Mouselab Web Stuff*/
+
+.boxTD {
+    font-size: 16px !important;
+    font-weight: 900;
+}
+
+/*Questionnaire */
+
+.radioDisplayHorizontal {
+    display: inline-flex;
+    margin-bottom: 16px;
+}
+
+.radioDisplayVertical {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.radioDisplayHorizontal .radioItemFlex {
+    margin: 25px;
+    display: block;
+    width: 20px;
+    text-align: center;
+}
+
+.radioItemFlex {
+    display: flex;
+    font-size: 17px;
+}
+
+.radioItemFlex input {
+    margin-right: 10px;
+}
+
+
+#overviewTable tr td {
+    border: 1px solid black;
+}
+
+#overviewTable thead {
+    background-color: #c9c9c9;
+}
+
+#overviewTable thead tr td {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/*
+Downloads
+ */
+
+.downloadButtonDiv {
+    display: flex !important;
+}
+
+.downloadButtonDiv form {
+    margin: auto 40px;
+}
